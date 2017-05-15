@@ -1,1 +1,2499 @@
 
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/BJEpfSpbtixDiIf8Ep78or#"
+     xml:base="http://webprotege.stanford.edu/project/BJEpfSpbtixDiIf8Ep78or"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/BJEpfSpbtixDiIf8Ep78or"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>LongRange</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>CanPortable</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R96ehGkaCZ3BQE0jvlwNdqL -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R96ehGkaCZ3BQE0jvlwNdqL">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>HasScope</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>ShortRange</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>CountryName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>Capacity</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>ProductionDate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R76TfbRrTGKnRywnXME9Tq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R76TfbRrTGKnRywnXME9Tq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBlmKWFTg6iWPkpwEwx0ggG"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">England</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">30Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1935</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Brenlightmachinegun</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R77taekIp65ZoLmZlyLaXw0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R77taekIp65ZoLmZlyLaXw0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD0wlbNlFjFNV4BbOJC43E3"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">Turkey</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">4Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">2012</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>T-300Kasırga</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7wdpshFkMJVqD2xEIZYGev -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7wdpshFkMJVqD2xEIZYGev">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">NaziGermany</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">30Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1930</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>MP40</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7woSQGGFb6QrSvKU5ItEaT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7woSQGGFb6QrSvKU5ItEaT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBlmKWFTg6iWPkpwEwx0ggG"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">NaziGermany</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">1Bullet</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1935</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>ProjectorInfantryAnti-Tank</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R859nEJF2bwmGQthOqtOtw5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R859nEJF2bwmGQthOqtOtw5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">France</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">20Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1990</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Famas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8EmkP0yofs0TZgCuVqG0op -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8EmkP0yofs0TZgCuVqG0op">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">SSCB</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">20Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1960</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>AK-63</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8O3EMzXmJLWVfRjE5vp3bL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8O3EMzXmJLWVfRjE5vp3bL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R96ehGkaCZ3BQE0jvlwNdqL"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">SSCB</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">30Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1955</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>AK-47</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ct6oHISd1EActjAEmzFd4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ct6oHISd1EActjAEmzFd4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBlmKWFTg6iWPkpwEwx0ggG"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">NaziGermany</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">1Bullet</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1938</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Panzerfaust</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8qcl47paubQH922BJhcoah -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8qcl47paubQH922BJhcoah">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">Russia</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">30Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">2007</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>AK12</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R975bhzrOsAJj6ao6l3gCxE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R975bhzrOsAJj6ao6l3gCxE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">SSCB</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">30Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1960</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Kalashnikovrifle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9OBo58QnN5UDzV5wNIOwbm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9OBo58QnN5UDzV5wNIOwbm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R96ehGkaCZ3BQE0jvlwNdqL"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">Germany</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">20Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">2001</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Heckler&amp;KochHK416</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9T4F7Y3HNVFrXLgeEjEzgY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9T4F7Y3HNVFrXLgeEjEzgY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBlmKWFTg6iWPkpwEwx0ggG"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">SSCB</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">50Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1935</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>DP-28</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Tpr9HlFQ9sHSpTNUZkA31 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Tpr9HlFQ9sHSpTNUZkA31">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">Turkey</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">20Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">2011</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>MPT-76</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9iO9TSox812NLengcs2uFE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9iO9TSox812NLengcs2uFE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBlmKWFTg6iWPkpwEwx0ggG"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">UnitedStates</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">1Bullet</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1938</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Bazooka</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RfBlsKklhNU75bgxFGz1Qi"/>
+        <rdfs:label>ModernEraLightWeapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB35niGiGjY7y3K7iNIb3yX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB35niGiGjY7y3K7iNIb3yX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">SSCB</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">12Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1970</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>PSMpistol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB6Mscze379Q7nWpMsNOfTb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB6Mscze379Q7nWpMsNOfTb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">NaziGermany</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">30Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1934</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>STG44</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB9jay1jA43cw8P8MAGNisC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB9jay1jA43cw8P8MAGNisC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RiJOpcPcRRlA46lNhCNAsw"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">SSCB</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">1Bullet</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1965</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>R-17Elbrus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBIau10yQy4YJk2ofCkAxtJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBIau10yQy4YJk2ofCkAxtJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R96ehGkaCZ3BQE0jvlwNdqL"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">İndia</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">20Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">2009</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Excaliburrifle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBcJFF2rpLslD6bAWKLsThU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBcJFF2rpLslD6bAWKLsThU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RiJOpcPcRRlA46lNhCNAsw"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">SSCB</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">4Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1970</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>3M6Shmel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBexDGJcwbCVlLwZ5cYpzXM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBexDGJcwbCVlLwZ5cYpzXM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBlmKWFTg6iWPkpwEwx0ggG"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">NaziGermany</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">100Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1934</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>MG42</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBlmKWFTg6iWPkpwEwx0ggG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBlmKWFTg6iWPkpwEwx0ggG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmRcFAeqU6CenCiNTkEqQi"/>
+        <rdfs:label>WW2HeavyWeapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmRcFAeqU6CenCiNTkEqQi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBmRcFAeqU6CenCiNTkEqQi">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>WW2Weapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBq4Wpbp8G0nf82jto0HV0i -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBq4Wpbp8G0nf82jto0HV0i">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD0wlbNlFjFNV4BbOJC43E3"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">Pakistan</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">1Bullet</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">2002</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Ghaznavi(missile)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBvdHBJtTFX73qEaJsAkU0Z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBvdHBJtTFX73qEaJsAkU0Z">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RiJOpcPcRRlA46lNhCNAsw"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">UnitedStates</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">1Bullet</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1987</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>SM-68Titan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBzPrtdf5iAwhdkBL11C9rc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBzPrtdf5iAwhdkBL11C9rc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RiJOpcPcRRlA46lNhCNAsw"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">SSCB</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">1Bullet</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1970</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>SS-20Saber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC5waCgEkIaBiWuWVe2aZSc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC5waCgEkIaBiWuWVe2aZSc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R96ehGkaCZ3BQE0jvlwNdqL"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">England</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">10Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1918</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>IIILee–Enfield</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCE3cXGA0XFSl7rrZ1tMRPf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCE3cXGA0XFSl7rrZ1tMRPf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">Poland</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">20Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">2005</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>MSBSRadon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDD86jWpnnULVhf4FAigwtg"/>
+        <rdfs:label>ColdWarLightWeapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCORL6D9gwFAGQCrEzjCalA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCORL6D9gwFAGQCrEzjCalA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RiJOpcPcRRlA46lNhCNAsw"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">UnitedStates</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">1Bullet</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1988</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Crow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCS7VUisjqfwrmol6kaayza -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCS7VUisjqfwrmol6kaayza">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">NaziGermany</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">10Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1928</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Gewehr41</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCUcqKI68AGdfCIGMTkFVQW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCUcqKI68AGdfCIGMTkFVQW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD0wlbNlFjFNV4BbOJC43E3"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">Russia</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">2Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">2003</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>9K720Iskander</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RChD8IlzlScfqtyfNxaUSgE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RChD8IlzlScfqtyfNxaUSgE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDwcwbgiZgwT8XXd9c86eJ9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="eng">UnitedStates</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">10Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1932</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>M1Grand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCwswCtKh0WtPeAcRF7PSj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCwswCtKh0WtPeAcRF7PSj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">NaziGermany</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">10Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1930</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Gewehr43</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD0Yb7ulyaEdp5qoozLTYQN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD0Yb7ulyaEdp5qoozLTYQN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD0wlbNlFjFNV4BbOJC43E3"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">İsrael</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">1Bullet</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">2007</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>LORA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD0wlbNlFjFNV4BbOJC43E3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD0wlbNlFjFNV4BbOJC43E3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RfBlsKklhNU75bgxFGz1Qi"/>
+        <rdfs:label>ModernEraHeavyWeapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDD86jWpnnULVhf4FAigwtg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDD86jWpnnULVhf4FAigwtg">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>ColdWarWeapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDaCMoUh9Abs3uCaOJVCejS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDaCMoUh9Abs3uCaOJVCejS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RiJOpcPcRRlA46lNhCNAsw"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">UnitedStates</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">1Bullet</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1990</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>SM-65Atlas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDcCplIuBn4cj6EDyEnRack -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDcCplIuBn4cj6EDyEnRack">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBlmKWFTg6iWPkpwEwx0ggG"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">NaziGermany</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">1Bullet</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1940</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>2-inchmortar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDjGYRdaHJfvOt1YNJsn16W -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDjGYRdaHJfvOt1YNJsn16W">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R96ehGkaCZ3BQE0jvlwNdqL"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">Egytp</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">10Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1970</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>RasheedCarbine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDn3xwuP9rX5ePSWzghoMFz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDn3xwuP9rX5ePSWzghoMFz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD0wlbNlFjFNV4BbOJC43E3"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">UnitedStates</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">1Bullet</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">2009</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>MGM-140ATACMS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDu3uNLSdmtQOA92m79wjcf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDu3uNLSdmtQOA92m79wjcf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R96ehGkaCZ3BQE0jvlwNdqL"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">UnitedStates</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">20Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">2004</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>AdaptiveCombatRifle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmRcFAeqU6CenCiNTkEqQi"/>
+        <rdfs:label>WW2LightWeapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDx2oDLK9aTDcAZboiFC0VF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDx2oDLK9aTDcAZboiFC0VF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RiJOpcPcRRlA46lNhCNAsw"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">SSCB</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">1Bullet</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1975</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>9K112Kobra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RE86dUrGwZ1lXC7BSsQoMp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RE86dUrGwZ1lXC7BSsQoMp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R96ehGkaCZ3BQE0jvlwNdqL"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">UnitedStates</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">20Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1965</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>M16rifle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RKrTeYX6SSNp6xKZs3rSof -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RKrTeYX6SSNp6xKZs3rSof">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">SSCB</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">10Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1927</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>SVT-40</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRZplOC77EJlZTBD2z5Gcn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RRZplOC77EJlZTBD2z5Gcn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R96ehGkaCZ3BQE0jvlwNdqL"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">Russia</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">30Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">2004</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>AK-9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVYegtVDtOI9i4BQw8WpmR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RVYegtVDtOI9i4BQw8WpmR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">England</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">20Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1930</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Sten</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rdy5ywHjLUZI6L3UZzaO8b -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rdy5ywHjLUZI6L3UZzaO8b">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R96ehGkaCZ3BQE0jvlwNdqL"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">China</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">15Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">2001</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>XT-97AssaulRifle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RfBlsKklhNU75bgxFGz1Qi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RfBlsKklhNU75bgxFGz1Qi">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>ModernEraWeapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RfZhgmGbhdJI1zyrFsg5RL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RfZhgmGbhdJI1zyrFsg5RL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">UnitedStates</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">20Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1930</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Thompson</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RiJOpcPcRRlA46lNhCNAsw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RiJOpcPcRRlA46lNhCNAsw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDD86jWpnnULVhf4FAigwtg"/>
+        <rdfs:label>ColdWarHeavyWeapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RlR5kjQ5IvJu4K8IItiy6E -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RlR5kjQ5IvJu4K8IItiy6E">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">İsrael</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">30Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">2008</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>GalilACE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rmb1FBsSxef0E1cbNEQkCD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rmb1FBsSxef0E1cbNEQkCD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R96ehGkaCZ3BQE0jvlwNdqL"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">Germany</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">20Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1960</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Heckler&amp;KochG3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RnA2SZaQzvsMRJxhqyYsB2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RnA2SZaQzvsMRJxhqyYsB2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD0wlbNlFjFNV4BbOJC43E3"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">Turkey</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">2Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">2010</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>TOROS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RybuMZXBIVL5by9VBeWhVW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RybuMZXBIVL5by9VBeWhVW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RiJOpcPcRRlA46lNhCNAsw"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">UnitedStates</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">1Bullet</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1984</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>MGM-52Lance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rykedvr2E1JSEfSDbZiUk4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rykedvr2E1JSEfSDbZiUk4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">UnitedStates</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">15Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1935</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>M1carbine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RzbWJAoMNxoqlSN0VQqNwW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RzbWJAoMNxoqlSN0VQqNwW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R96ehGkaCZ3BQE0jvlwNdqL"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN"/>
+                <owl:hasValue rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ"/>
+                <owl:hasValue xml:lang="en">UnitedStates</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma"/>
+                <owl:hasValue xml:lang="en">20Bullets</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn"/>
+                <owl:hasValue xml:lang="en">1980</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>T48rifle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52">
+        <rdfs:label>false</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE">
+        <rdfs:label>true</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDwcwbgiZgwT8XXd9c86eJ9 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDwcwbgiZgwT8XXd9c86eJ9">
+        <rdfs:label>Yes</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.3.1) https://github.com/owlcs/owlapi -->
+
