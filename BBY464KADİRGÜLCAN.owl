@@ -1,0 +1,968 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/BJEpfSpbtixDiIf8Ep78or#"
+     xml:base="http://webprotege.stanford.edu/project/BJEpfSpbtixDiIf8Ep78or"
+     xmlns:webprotege="http://webprotege.stanford.edu/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/BJEpfSpbtixDiIf8Ep78or"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R1WPjb3G2uwomSf1cf5y8G">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>LongRange</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R75OmztcJqkNNZwEQtJl0D">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">CanPortable</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R96ehGkaCZ3BQE0jvlwNdqL -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R96ehGkaCZ3BQE0jvlwNdqL">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>HasScope</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RM6Noacx7UQi0D0JECuSiN">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>ShortRange</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7JME8k6JskNzZCQHdDq9eZ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <dc:type xml:lang="en">string</dc:type>
+        <rdfs:label xml:lang="en">CountryName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBLKcfzL2qcXISKDcqhtXma">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <dc:type xml:lang="en">number</dc:type>
+        <rdfs:label xml:lang="en">Capacity</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDAb9ROgLNp3C1jenmUBfEn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <dc:type xml:lang="en">number</dc:type>
+        <rdfs:label xml:lang="en">ProductionDate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RfBlsKklhNU75bgxFGz1Qi"/>
+        <rdfs:label>ModernEraLightWeapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBlmKWFTg6iWPkpwEwx0ggG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBlmKWFTg6iWPkpwEwx0ggG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmRcFAeqU6CenCiNTkEqQi"/>
+        <rdfs:label>WW2HeavyWeapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmRcFAeqU6CenCiNTkEqQi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBmRcFAeqU6CenCiNTkEqQi">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>WW2Weapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDD86jWpnnULVhf4FAigwtg"/>
+        <rdfs:label>ColdWarLightWeapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD0wlbNlFjFNV4BbOJC43E3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD0wlbNlFjFNV4BbOJC43E3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RfBlsKklhNU75bgxFGz1Qi"/>
+        <rdfs:label>ModernEraHeavyWeapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDD86jWpnnULVhf4FAigwtg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDD86jWpnnULVhf4FAigwtg">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>ColdWarWeapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmRcFAeqU6CenCiNTkEqQi"/>
+        <rdfs:label>WW2LightWeapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RfBlsKklhNU75bgxFGz1Qi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RfBlsKklhNU75bgxFGz1Qi">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>ModernEraWeapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RiJOpcPcRRlA46lNhCNAsw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RiJOpcPcRRlA46lNhCNAsw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDD86jWpnnULVhf4FAigwtg"/>
+        <rdfs:label>ColdWarHeavyWeapons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R71wbt2KovHQUAnoYVFURXj -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R71wbt2KovHQUAnoYVFURXj">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RD0wlbNlFjFNV4BbOJC43E3"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">Russia</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">2Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">9K720Iskender</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R79ygtGJkbPFSzzNyZxK6B3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R79ygtGJkbPFSzzNyZxK6B3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RiJOpcPcRRlA46lNhCNAsw"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">UnitedStates</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">1Bullet</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1984</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">MGM-52Lance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7OrGqM6LaLHFpHe9m7d25l -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7OrGqM6LaLHFpHe9m7d25l">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">Russia</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">20Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">AK-12</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ZVRYyNjPeVnC2fyANWqyJ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7ZVRYyNjPeVnC2fyANWqyJ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R96ehGkaCZ3BQE0jvlwNdqL rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">Germany</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">20Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">Heckler&amp;KochHK416</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7fJX3UzkfKr9TI6piObmu0 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7fJX3UzkfKr9TI6piObmu0">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">Israel</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">20Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">Famas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7l5Q6TjqDi8YznRTCo8gak -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7l5Q6TjqDi8YznRTCo8gak">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RiJOpcPcRRlA46lNhCNAsw"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">UnitedStates</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="e">1Bullet</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1988</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">Crow</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52">
+        <rdfs:label>false</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R84fArR5sTQ2BEJatNJsR7F -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R84fArR5sTQ2BEJatNJsR7F">
+        <rdfs:label>falde</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8OnptURSPnCSbWCXClrYII -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8OnptURSPnCSbWCXClrYII">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RiJOpcPcRRlA46lNhCNAsw"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">SSCB</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">4Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1970</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">3M6Shmel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8pGKGV7QJCzEpzQ1XbgzhQ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8pGKGV7QJCzEpzQ1XbgzhQ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">Israel</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">30Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">GalilAce</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R95ANM5wqPlqlOZsH9MyTHZ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R95ANM5wqPlqlOZsH9MyTHZ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBlmKWFTg6iWPkpwEwx0ggG"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">NaziGermany</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">1Bullet</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1934</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">2-Inchmortar</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R986YJNFdl7Qf4DLsDe4Txx -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R986YJNFdl7Qf4DLsDe4Txx">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBlmKWFTg6iWPkpwEwx0ggG"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">NaziGermany</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">1Bullet</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1931</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">ProjectorInfantryAntiTank</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9AbiYtzazISalKOTHdHC5z -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9AbiYtzazISalKOTHdHC5z">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R96ehGkaCZ3BQE0jvlwNdqL rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">Turkey</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">30Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="tr">MPT-76</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9HFuCNJVKmdVseTPhgUMd6 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9HFuCNJVKmdVseTPhgUMd6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">UnitedStates</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">20Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1936</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">Thompson</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ZOHcLg6ay2pTC7kh3Yvpp -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9ZOHcLg6ay2pTC7kh3Yvpp">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RiJOpcPcRRlA46lNhCNAsw"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">UniteStates</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1Bullet</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1982</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">SM-68Titan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9tedSlTEkMj5BNDY7NFX7L -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9tedSlTEkMj5BNDY7NFX7L">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RD0wlbNlFjFNV4BbOJC43E3"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">Turkey</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">2Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="tr">Toros</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ztMuypDUQZwwMIDOwQLt9 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9ztMuypDUQZwwMIDOwQLt9">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBlmKWFTg6iWPkpwEwx0ggG"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">NaziGermany</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">100Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1932</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">MG42</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB6fV49hG5P7FjDDafWpaQf -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB6fV49hG5P7FjDDafWpaQf">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">UnitedStates</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">30Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1955</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">AK-47</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB6r3Zrx44SUw3HizXvOaKx -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB6r3Zrx44SUw3HizXvOaKx">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">SSCB</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">20Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1960</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">Kalashnikov</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB7jUs9h4abPzdSQNhiL8Hs -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB7jUs9h4abPzdSQNhiL8Hs">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBlmKWFTg6iWPkpwEwx0ggG"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">NaziGermany</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">1Bullet</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1936</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="ger">Panzerfaust</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBNIU8aVZLfTONloANuETk0 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBNIU8aVZLfTONloANuETk0">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">Germany</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">20Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1950</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">Heckler&amp;KochG3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBSNrdZFfZo2dyFqso01EXf -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBSNrdZFfZo2dyFqso01EXf">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">UnitedStates</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">20Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1988</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">T48Rifle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBVUp8lYcJ20qR137FPbRpZ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBVUp8lYcJ20qR137FPbRpZ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">SSCB</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">50Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1928</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">STG40</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmJuQhRxng2GuoXpIzGOnj -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBmJuQhRxng2GuoXpIzGOnj">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">UnitedStates</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">20Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">AdaptiveCombatRifle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC34i6XO6fH5KSDQHNyFCtC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RC34i6XO6fH5KSDQHNyFCtC">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">SSCB</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">30Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1960</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">AK-63</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCJWwg22jHvGkZVVgUtnDFO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCJWwg22jHvGkZVVgUtnDFO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">UnitedStates</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">20Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn xml:lang="en">1955</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">M16Rifle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCMEps06XMei9UAc9heaYDR -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCMEps06XMei9UAc9heaYDR">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R96ehGkaCZ3BQE0jvlwNdqL rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">China</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">20Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">XT-97AssaultRifle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCUCpxzNtuFsEV5MWi2rqhH -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCUCpxzNtuFsEV5MWi2rqhH">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RiJOpcPcRRlA46lNhCNAsw"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">SSCB</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1Bullet</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn xml:lang="en">1985</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">SS-20Saber</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCecmtY6JWvBIK0V4TyFaJa -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCecmtY6JWvBIK0V4TyFaJa">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBlmKWFTg6iWPkpwEwx0ggG"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">UnitedStates</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">1Bullet</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1932</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">Bazooka</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD1HGZVi4kI3i6iVUKZyw3a -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RD1HGZVi4kI3i6iVUKZyw3a">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R96ehGkaCZ3BQE0jvlwNdqL rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">NaziGermany</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">15Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1928</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="de">Gewehr41</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDA5wlKipSAQWjTCR6Z7muG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDA5wlKipSAQWjTCR6Z7muG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBlmKWFTg6iWPkpwEwx0ggG"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">UK</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">20Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1928</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">BrenLightMachinegun</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDBtYhblSaJ5sKkVuRd1Sxv -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDBtYhblSaJ5sKkVuRd1Sxv">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">India</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">15Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">Excaliburrifle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE">
+        <rdfs:label>true</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDRAfPzMHtlu41xdhI2dGxU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDRAfPzMHtlu41xdhI2dGxU">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">NaziGermany</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">20Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1925</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="de">Gewehr43</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDVyRo0RUWAZapWidvIpEhJ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDVyRo0RUWAZapWidvIpEhJ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">UnitedStates</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">10Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1930</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">M1carbine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDcjAOjSB5ORHz5aJij5YO6 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDcjAOjSB5ORHz5aJij5YO6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RiJOpcPcRRlA46lNhCNAsw"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">SSCB</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">1Bullet</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1975</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">9K112Kobra</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDetfihLONBZQ47RRuG3jkX -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDetfihLONBZQ47RRuG3jkX">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RD0wlbNlFjFNV4BbOJC43E3"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">UnitedStates</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">1Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">MGM-140ATACMS</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDjJEjdMVPUkVBOCNsZ9gZ6 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDjJEjdMVPUkVBOCNsZ9gZ6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RD0wlbNlFjFNV4BbOJC43E3"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">Turkey</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">4Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="tr">T-300kasırga</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDwcwbgiZgwT8XXd9c86eJ9 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDwcwbgiZgwT8XXd9c86eJ9">
+        <rdfs:label>Yes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RH3hIgpWwodNJjlX5TAfx2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RH3hIgpWwodNJjlX5TAfx2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R96ehGkaCZ3BQE0jvlwNdqL rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">UK</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">10Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1918</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">IIILee-Anfield</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLNRngSbQcDWIhRN52s4N8 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RLNRngSbQcDWIhRN52s4N8">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RD0wlbNlFjFNV4BbOJC43E3"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">Pakistan</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">1Bullet</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">Ghaznavi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNIYGspAkBtYYs3WhVtEUZ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RNIYGspAkBtYYs3WhVtEUZ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">UnitedStates</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">10Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1930</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">M1grand</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ROEFaA87rtHBqoQcYCtjIO -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/ROEFaA87rtHBqoQcYCtjIO">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCLvIyfIalfLhCix9twubHC"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">Egytp</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">10Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1970</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">RasheedCarbine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQFug5hN2mNNO9T2k6wrd9 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RQFug5hN2mNNO9T2k6wrd9">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UK</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">20Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1918</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">Sten</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSs4I1WA8fdmvzDBjg215z -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RSs4I1WA8fdmvzDBjg215z">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RiJOpcPcRRlA46lNhCNAsw"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">SSCB</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">1Bullet</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1986</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label>R-17Elbrus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RY3t4nqfh6wjPJQlte0BMK -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RY3t4nqfh6wjPJQlte0BMK">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">Russia</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">30Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">AK-9</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYKodrUSKiqHXXh2vmLUMy -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RYKodrUSKiqHXXh2vmLUMy">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBlmKWFTg6iWPkpwEwx0ggG"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">NaziGermany</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">30Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1934</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">DP-28</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rkc10uG7T25o1S1k5t5czC -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rkc10uG7T25o1S1k5t5czC">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R9usYFfgsBLIbWSFz2QU2Wy"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R96ehGkaCZ3BQE0jvlwNdqL rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">poland</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">20Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">MSBSRandon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RlhDOEV3H6pQ6bZGnRUt3X -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RlhDOEV3H6pQ6bZGnRUt3X">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDuKOXlE9AbOy4ItkXsu8SX"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">NaziGermany</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">20Bullets</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1936</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">MP40</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RszckMiaBwZiGFuChvWBKN -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RszckMiaBwZiGFuChvWBKN">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RiJOpcPcRRlA46lNhCNAsw"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">UnitedStates</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">1Bullet</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn xml:lang="en">1979</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">SM-65Atlas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RxToBaLuNwZnuUjzNmSaQP -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RxToBaLuNwZnuUjzNmSaQP">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RD0wlbNlFjFNV4BbOJC43E3"/>
+        <webprotege:R1WPjb3G2uwomSf1cf5y8G rdf:resource="http://webprotege.stanford.edu/RDP9ZtZlb7X94tikyUN3lxE"/>
+        <webprotege:R75OmztcJqkNNZwEQtJl0D rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:RM6Noacx7UQi0D0JECuSiN rdf:resource="http://webprotege.stanford.edu/R7q1PI9mxxENtsiWDskAc52"/>
+        <webprotege:R7JME8k6JskNzZCQHdDq9eZ xml:lang="en">Israel</webprotege:R7JME8k6JskNzZCQHdDq9eZ>
+        <webprotege:RBLKcfzL2qcXISKDcqhtXma xml:lang="en">1Bullet</webprotege:RBLKcfzL2qcXISKDcqhtXma>
+        <webprotege:RDAb9ROgLNp3C1jenmUBfEn rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</webprotege:RDAb9ROgLNp3C1jenmUBfEn>
+        <rdfs:label xml:lang="en">Lora</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.3.1) https://github.com/owlcs/owlapi -->
+
